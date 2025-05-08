@@ -1,8 +1,8 @@
 {
     //
     class Vehical {
-        Make:string
-        Year:number
+       private Make:string
+       private Year:number
        
 
 
