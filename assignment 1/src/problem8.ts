@@ -5,15 +5,15 @@
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 if (n < 0) {
-                    reject(new Error("Number must be non-negative"));
+                    reject(new Error(" negative Number"));
                 } else {
-                    resolve(n * n);
+                    resolve ((n * n));
                 }
             }, 1000); 
         });
     }
     
-    // Example usage
+   
     squareAsync(4)
         .then(console.log) 
         .catch(console.error);
